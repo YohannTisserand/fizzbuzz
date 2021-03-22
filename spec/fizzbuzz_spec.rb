@@ -12,4 +12,8 @@ describe 'fizzbuzz' do
   it 'should return fizzbuzz' do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end
+
+  it 'should return a number' do
+    expect(fizzbuzz(7)).to eq(7)
+  end
 end
